@@ -14,6 +14,7 @@ const App = () => {
             ) : (
                 <ChannelForm setInCall={setInCall} setChannelName={setChannelName} />
             )}
+            <Chat />
         </div>
     );
 };
